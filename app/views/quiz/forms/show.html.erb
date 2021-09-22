@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @quiz_form.name %>
+</p>
+
+<%= link_to 'Edit', edit_quiz_form_path(@quiz_form) %> |
+<%= link_to 'Back', quiz_forms_path %>
